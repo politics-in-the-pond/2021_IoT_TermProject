@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/powerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "전원: "
+        android:textSize = "25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/powerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "OFF"
+        android:backgroundTint="#DF0101"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/colorStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "색상: "
+        android:textSize = "25sp"/>
+
+    <LinearLayout
+        android:id="@+id/colotButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/redButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"/>
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FF00"/>
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0000FF"/>
+
+        <Button
+            android:id="@+id/yelloButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFBF00"/>
+
+        <Button
+            android:id="@+id/whiteButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E6E6E6"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/timeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "시간: "
+        android:textSize = "25sp"/>
+
+
+    <LinearLayout
+        android:id="@+id/timeButtons1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/oneHour"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "60min" />
+
+        <Button
+            android:id="@+id/halfHour"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "30min"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timeButtons2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/quarterHour"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "15min" />
+
+        <Button
+            android:id="@+id/noTime"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "제한없음" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/settingButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/saveSetting"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "저장하기" />
+
+        <Button
+            android:id="@+id/viewSetting"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "사용자 설정"/>
+
+        <Button
+            android:id="@+id/gestureMode"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "리모컨 모드"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

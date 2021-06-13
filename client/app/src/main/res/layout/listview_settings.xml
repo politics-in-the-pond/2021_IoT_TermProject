@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/settingColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="색깔"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/settingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:text="시간"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="적용하기"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+             />
+    </LinearLayout>
+
+
+</LinearLayout>
